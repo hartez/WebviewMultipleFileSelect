@@ -15,7 +15,8 @@ namespace WebviewFileSelect
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 				});
 
-			//ConfigureHandlers(builder);
+			// Comment out the next line to see the issue on Android
+			ConfigureHandlers(builder);
 
 #if DEBUG
 			builder.Logging.AddDebug();
